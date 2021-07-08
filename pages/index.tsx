@@ -1,15 +1,18 @@
-import { Flex, Heading, useColorModeValue, Button, Circle, Text } from '@chakra-ui/react'
+import { Flex, Heading, useColorModeValue, Button, Circle, Text, useColorMode } from '@chakra-ui/react'
 import Image from 'next/image'
 import Pic from '../public/massage.png'
-import Round from '../public/round.svg'
+import Round from '../public/round_mor.svg'
+import RoundDark from '../public/round_mor_dark.svg'
 
 export default function Home() {
   const background = useColorModeValue("personal.50", "personal.900")
   const fontcolor =  useColorModeValue("personal.900", "personal.50")
+  const { colorMode, toggleColorMode } = useColorMode()
 
 
 
   return (
+    
     <Flex width = "100%" alignItems = "center" pl={16} pb={24} height="83vh" background={background} color={fontcolor} justifyContent="flex-start">
     <Flex direction="column" pl={14}>
     <Heading size="2xl">Fancy a massage</Heading>
@@ -49,7 +52,16 @@ export default function Home() {
             layout = "fixed"
             quality = {100}
     />
-
+    <Flex pl={250} pt={121} opacity="20%">
+    <Image 
+            src = {colorMode === 'light' ? RoundDark : Round}
+            alt="Picture of the author" 
+            width = {170}
+            height = {260}
+            layout = "fixed"
+            quality = {100}
+    />
+    </Flex>
     </Flex>
     </Flex>
 

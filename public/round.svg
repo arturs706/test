@@ -5,7 +5,29 @@
 <style type="text/css">
 	.st0{fill:#48149B;}
 </style>
-<path class="st0" d="M69,350C-9.1,234.4,29.8,108.1,92.4,56.1c82.4-68.4,234.9,18.6,262,35c81.5,49.2,119.7,118.4,136,149
-	c25.6,47.9,87.9,164.3,40,238c-44.4,68.3-157.8,59.9-290,50c-80.8-6-187.1-14-205-69c-11.6-35.6,81.2-104.7,46-105
-	C69,354,70,351,69,350z"/>
+<g>
+	<circle class="st0" cx="51.5" cy="383" r="33.5"/>
+	<circle class="st0" cx="51.5" cy="298" r="33.5"/>
+	<circle class="st0" cx="51.5" cy="213" r="33.5"/>
+	<circle class="st0" cx="51.5" cy="128" r="33.5"/>
+	<circle class="st0" cx="51.5" cy="43" r="33.5"/>
+	<g>
+		<circle class="st0" cx="138.5" cy="383.5" r="33.5"/>
+		<circle class="st0" cx="138.5" cy="298.5" r="33.5"/>
+		<circle class="st0" cx="138.5" cy="213.5" r="33.5"/>
+		<circle class="st0" cx="138.5" cy="128.5" r="33.5"/>
+	</g>
+	<circle class="st0" cx="225.5" cy="383" r="33.5"/>
+	<circle class="st0" cx="225.5" cy="298" r="33.5"/>
+	<circle class="st0" cx="225.5" cy="213" r="33.5"/>
+	<circle class="st0" cx="312.5" cy="383" r="33.5"/>
+	<circle class="st0" cx="312.5" cy="298" r="33.5"/>
+	<circle class="st0" cx="399.5" cy="383" r="33.5"/>
+	<circle class="st0" cx="51.5" cy="468" r="33.5"/>
+	<circle class="st0" cx="138.5" cy="468" r="33.5"/>
+	<circle class="st0" cx="225.5" cy="468" r="33.5"/>
+	<circle class="st0" cx="312.5" cy="468" r="33.5"/>
+	<circle class="st0" cx="399.5" cy="468" r="33.5"/>
+	<circle class="st0" cx="486.5" cy="468" r="33.5"/>
+</g>
 </svg>
