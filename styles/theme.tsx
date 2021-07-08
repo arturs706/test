@@ -20,9 +20,6 @@ export const myNewTheme = extendTheme ({
             900: "#2A006C",
         }
     },
-    components: {
-        Button
-    },
     fonts: {
         heading: "Philosopher",
         body: "Philosopher"
