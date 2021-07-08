@@ -19,3 +19,5 @@ const ButtonStyles = {
       variant: "",
     },
   }
+
+  export default ButtonStyles
