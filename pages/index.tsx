@@ -10,19 +10,19 @@ export default function Home() {
 
 
   return (
-    <Flex width = "100%" alignItems = "center" pl={20} pb={24} height="83vh" background={background} color={fontcolor} justifyContent="flex-start">
+    <Flex width = "100%" alignItems = "center" pl={16} pb={24} height="83vh" background={background} color={fontcolor} justifyContent="flex-start">
     <Flex direction="column" pl={14}>
-    <Heading size="3xl">Fancy a massage</Heading>
-    <Heading size="3xl">without leaving</Heading>
-    <Heading size="3xl" pb={10}>home?</Heading>
+    <Heading size="2xl">Fancy a massage</Heading>
+    <Heading size="2xl">without leaving</Heading>
+    <Heading size="2xl" pb={10}>home?</Heading>
 
     <Text size="3xl">Get a mobile massage therapist in London to</Text>
     <Text size="3xl"pb={10}>your home right now. </Text>
     <Button 
     bg={fontcolor} 
     color={background} 
-    size="md" 
-    width="40"
+    size="sm" 
+    width="36"
     height="12" 
     boxShadow="base"
     _active={{
@@ -32,20 +32,20 @@ export default function Home() {
 
     >BOOK NOW</Button>
     </Flex>
-    <Flex pl={7} pt={18}>
+    <Flex pl={22} pt={51}>
     <Circle 
       top="230"
-      left="530"
+      left="440"
       position="absolute"
-      size="600px"
-      sx={{ filter: "blur(90px)" }}
+      size="480px"
+      sx={{ filter: "blur(180px)" }}
       bgColor={fontcolor}
     ></Circle>
     <Image 
             src = {Pic}
             alt="Picture of the author" 
-            width = {510}
-            height = {770}
+            width = {440}
+            height = {630}
             layout = "fixed"
             quality = {100}
     />
