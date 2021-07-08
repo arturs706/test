@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps ) {
     <ChakraProvider resetCSS theme={myNewTheme}>
       <Layout>
         <Head>
-            <meta charset="UTF-8">
+            <meta charset="UTF-8"/>
             <meta name="description" content="Free Web tutorials"/>
             <meta name="keywords" content="massage barnet, massage in london, spa, day off "/>
             <meta name="author" content="Arthur"/>
